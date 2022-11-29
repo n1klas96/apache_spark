@@ -1,3 +1,21 @@
+# About the project 
+
+This small project is intended to give the reader an introduction to Spark and especially the programming interface for Python named PySpark.
+Since i was completly new to the world of big data processing with Spark, i got this brief overview using this Udemy course [ (https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/learn/lecture/14315200#overview){.external target="_blank"}.
+
+The project includes the essential elements of Spark. 
+At first i want to give you a brief introduction to Spark and how to set up your environment, in case you want to start playing with Spark.
+Afterwards i will talk abozt the Spark Basis and especially RDD's. As following i will talk about the kind of newer way to handle with Spark, the Spark SQL with Data Frames.
+
+Additionally after i explained the basics, i will give you some advanced examples and how to deal with them in Spark.
+Furthermore i will give you an overview about the Machine Learning API of Spark. 
+Last but not least data streaming is another really big and interesting topic of Spark and i will talk about this in another section with a notice to GraphX.
+
+
+
+
+
+
 # Apache Spark
 
 Spark is a unified analytics engine for large-scale data processing. It provides
