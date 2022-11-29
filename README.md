@@ -1,7 +1,10 @@
 # About the project 
 
+You can access the project within this [link] () 
+
 This small project is intended to give the reader an introduction to Spark and especially the programming interface for Python named PySpark.
-Since i was completly new to the world of big data processing with Spark, i got this brief overview using this Udemy course [ (https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/learn/lecture/14315200#overview){.external target="_blank"}.
+Since i was completly new to the world of big data processing with Spark, i got this brief overview using this Udemy course 
+[Udemy Course](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/learn/lecture/14315200#overview)
 
 The project includes the essential elements of Spark. 
 At first i want to give you a brief introduction to Spark and how to set up your environment, in case you want to start playing with Spark.
