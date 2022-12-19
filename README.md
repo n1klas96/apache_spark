@@ -1,25 +1,27 @@
 # About the project 
 
-You can access the project within this link: https://niklas.quarto.pub/httpsniklasquartopubtest/about.html
-
-This small project is intended to give the reader an introduction to Spark and especially the programming interface for Python named PySpark.
-Since i was completly new to the world of big data processing with Spark, i got this brief overview using this Udemy course 
+- You can access the project within this link: [Blog-Post](https://niklas.quarto.pub/httpsniklasquartopubtest/about.html)
+- i used this  Udemy course to get in touch with PySpark 
 [Udemy Course](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/learn/lecture/14315200#overview)
 
-The project includes the essential elements of Spark. 
-At first i want to give you a brief introduction to Spark and how to set up your environment, in case you want to start playing with Spark.
-Afterwards i will talk abozt the Spark Basis and especially RDD's. As following i will talk about the kind of newer way to handle with Spark, the Spark SQL with Data Frames.
+## Introduction & Learning Path
 
-Additionally after i explained the basics, i will give you some advanced examples and how to deal with them in Spark.
-Furthermore i will give you an overview about the Machine Learning API of Spark. 
-Last but not least data streaming is another really big and interesting topic of Spark and i will talk about this in another section with a notice to GraphX.
+This small project provides an introduction to Apache Spark. As part of the Big Data Processing module in my master program, I had the chance to learn something about a framework that I had no idea about. 
+Within a Udemy course, I first learned how to set up a suitable environment for Spark locally. In the case of the attached blog post, I did this on a Mac environment. For Linux and Windows, the tutorial is also linked. 
+
+I learned quite a lot about Spark, especially in terms of the Python API: PySpark. Particularly about the different operations with RDD's and the " follow-up model" Spark SQL. It was especially instructive not to distinguish between the time before Spark 3 (where RDD's were often used) and the time after (the urge to use Spark SQL/ Dataframes), but to show ways how to combine both concepts efficiently. 
+After dealing with the basics around Spark and creating some queries with SparkSQL myself, I dedicated myself to the advanced examples of the course. Besides the implementation of an algrithm, which should prove the six-dgrees-of-seperation in a network, I also built a model for collaborative filtering. These examples should show that even more abstract use-cases are relatively easy to implement in PySpark, as long as you know some basic Python and the main concepts of Spark. 
+Another point of my learning path was also the topic of data streaming with Spark. I am a complete beginner in this topic as well. However, the course did a good job of catching the big topic of data streaming and explaining it in an understandable way using PySpark. In my blogpost you can find an example using log data. As soon as a new file is added to the Log Data folder, various entries are automatically written to a table in the command line. 
+One point I didn't find very exciting in PySpark was the Machine Learning Library MLLib. This is probably due to the fact that through the course I was primarily trying to understand the basic framework of PySpark rather than getting directly into Machine Learning of the framework. Still, the examples were interesting and sharpened my understanding of RDD's and dataframes in Spark. 
+Furthermore, I learned, at least in theory, how to run Spark on a cluster. 
+GraphX was mentioned in the course, but due to the fact that GraphX only runs with Scala, it didn't get much attention.
+
+## Self Assessment
+
+Of course, since I was completely new to Apache Spark, as I mentioned earlier, I had a lot to learn. I think the course helped me especially to understand the two concepts around RDD's and SparkSQL. This requires frequent repetition of the exercises and the creation of own scripts. Furthermore, I have learned through the course to stay on track, even if something does not work directly. I am thinking especially about the setup of Spark on my system. After this finally worked, I really started to enjoy programming with PySpark. The remaining topics like data streaming, running Spark on a cluster, etc. were exciting experiences that were a bonus for me after understanding the basic concept behind Spark.
 
 
-
-
-
-
-# Apache Spark
+## Apache Spark
 
 Spark is a unified analytics engine for large-scale data processing. It provides
 high-level APIs in Scala, Java, Python, and R, and an optimized engine that
